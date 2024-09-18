@@ -27,23 +27,5 @@ k2.adres='izmir'
 print(f'isim: {k1.isim}, yas: {k1.yas}')
 print(f'isim: {k2.isim}, yas: {k2.yas} adres: {k2.adres}')
 
-class aileUyeleri:
-      pass
-      adres='cigli/evka5'
 
-      def __init__(this,ad,soyad,yas,meslek):
-            this.ad=ad
-            this.soyad=soyad
-            this.yas=yas
-            this.mesles=meslek
-            print('bilgiler okundu.')
-
-kisi1=aileUyeleri(ad='alper',soyad='aksakal',yas=29,meslek='muhendis')
-kisi2=aileUyeleri(ad='alptekin',soyad='aksakal',yas=14,meslek='ogenci')
-kisi3=aileUyeleri(ad='murat',soyad='aksakal',yas=55,meslek='polis')
-kisi4=aileUyeleri(ad='isminur',soyad='aksakal',yas=52,meslek='hemsire')
-
-
-
-print(f'aile uyeleri sirasiyla:{kisi1.ad}, {kisi2.ad}, {kisi3.ad}, {kisi4.ad}')
 
